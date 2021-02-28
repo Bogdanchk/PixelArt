@@ -1,0 +1,7 @@
+orange orange orange yellow orange orange orange;
+orange orange yellow red yellow orange orange;
+orange yellow yellow red yellow yellow orange;
+yellow yellow yellow red yellow yellow yellow;
+orange yellow yellow red yellow yellow orange;
+orange orange yellow red yellow orange orange;
+orange orange orange yellow orange orange orange;

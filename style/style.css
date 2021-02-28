@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+    
+    
+}
+::-webkit-scrollbar {
+    width: 8px; /* ширина для вертикального скролла */
+    height: 8px; /* высота для горизонтального скролла */
+    background-color: rgba(0, 0, 0, 0);
+}
+::-webkit-scrollbar-thumb {
+    background-color: #843465;
+    border-radius: 10px;
+    
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0px;
+    
+}
+td{
+    color: black;
+    text-align: center;
+    text-shadow: white 1px 1px 1px;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+    font-size: 36px;
+    
+}
+.button{
+    text-transform: uppercase;
+    font-size: 36px;
+    padding:  10px 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+    
+}
+.button:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.nav{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    padding: 0 40px;
+    
+}
+.nav>.button{
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%)
+}
+/* Общие стили */
+
+
+
+.start_background{
+    background-color: rgb(0, 204, 255);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+.start{
+    font-size: 100px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+}
+.start>span:nth-child(1){
+    color: #ff88bc;
+}
+.start>span:nth-child(2){
+    color:#ffc611;
+}
+.start>span:nth-child(3){
+    color:#a6e9da;
+}
+
+/* Стили для старта */
+
+.step_one-background{
+    background-color: #ffc611;
+}
+.select{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.select>span{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.selected_wrapper{
+    display: flex;
+    overflow-y: auto;
+    display: inline-flex;
+    max-width: 300px;
+    margin: 0 auto;
+    
+}
+.selected_wrapper>div{
+     margin: 0 20px;
+     font-size: 25px;
+     margin-bottom: 5px;
+     
+}
+
+/* Стили для первого шага (выбор режима) */
+
+.step_two-background{
+    background-color: #ff88bc;
+}
+
+/* Стили для второго шага (выбор размера) */
+
+
+
+
+.selected_color{
+    
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 25px;
+}
+.color-block{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-left: 15px;
+    border: 1px solid black;
+   
+    
+}
+
+
+.colors_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.color{
+    height: 40px;
+    width: 80px;
+    border: 2px solid black;
+    margin: 0 30px 30px 0
+}
+.highlight{
+    box-shadow: 0px 0px 20px 2px greenyellow ;
+    
+}
+
+
+
+
+.canvas_background{
+    background-color: #a6e9da;
+}
+.canvas_wrapper
+{
+    position: relative;
+    top: 50px;
+    padding: 30px;
+    background-color: white;
+    margin: 0 auto;  
+    max-width: 1000px;
+    padding-bottom: 80px;
+    
+}
+
+.canvas{
+    display: flex;
+    display: inline-flex;
+    border-collapse: collapse;
+    margin: 15px 0;
+    display: inline-block;
+    transition: 0.2s;
+    
+    overflow: auto;
+}
+.table_wrapper{
+    border-collapse: collapse;
+    margin: 30px 0;
+    display: inline-block;
+    transition: 0.2s;
+    width: 300px; 
+    height: 300px;
+    overflow: auto;
+}
+.td{
+    border: 1px solid black;
+    font-size: 12px;
+    
+}
+
+.guide_wrapper{
+    
+    display: flex;
+    position: absolute;
+    top: 45px;
+    right: 8%;
+    max-width: 500px;
+    max-height: 420px;
+    overflow: auto;
+    
+}
+
+.guide_item{
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.guide_color{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+   
+    display: inline-block;
+
+}
+
+.guide_info{
+    border: 2px solid black;
+    color: black;
+    max-width: 200px;
+    font-size: 20px;
+    padding: 10px 0 0 5px;
+    max-height: 300px;
+    overflow: auto;
+    display: flex;
+    
+}
+.guide_info::-webkit-scrollbar {
+   display: none;
+   
+}
+ 
+.img_first{
+    display: none;
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 100%;
+    left: 30%;
+    
+}
+
+.img_second{
+    display: none;
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    
+}
+.mode:hover + img{
+    display: block;
+    z-index: 999;
+}
+.congratulations{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.selected_image-wrapper{
+    padding:10px; 
+    display:flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    margin-bottom:100px;
+}
+.picture{
+    
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    display:flex;
+    padding: 20px;
+    background-color:white;
+    margin: 10px;
+    transition:0.3s;
+    color:black;
+    
+    
+}
+.helper{
+    border: 1px solid black;
+    color: black;
+    display: inline-block;
+    padding: 0 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+    display: none;
+}
+
+
+@media (max-width: 600px){
+    .start{
+        font-size: 70px;
+    }
+    
+}
+@media (max-width: 450px)
+{
+    .canvas_wrapper{
+        padding: 40px 0 0 0;
+    }
+    .start{
+        font-size: 50px;
+    }
+    
+    .colors_wrapper{
+        margin-left: 20px;
+    }
+    
+}
+@media(max-width: 700px){
+    .logo{
+        display: none;
+    }
+    .nav{
+        display: none;
+    }
+    .canvas_wrapper{
+        top: 0;
+        padding: 0;
+    }
+    
+    .guide_wrapper{
+        right: 0;
+    }
+    .back{
+        visibility:visible;
+    }
+    .selected_wrapper>div{
+        margin: 0 20px;
+        font-size: 15px;
+        margin-bottom: 5px;
+        
+   }
+} 
+@media(max-width:800px){
+    .helper{
+        display: inline-block;
+    }
+    .guide_wrapper{
+        visibility: hidden;
+        background-color: white;
+        width: 100%;
+    }
+    .canvas_wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}

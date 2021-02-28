@@ -1,0 +1,13 @@
+white white black black black white white white black black black white white;
+white black red red red black white black red red brown black white;
+black red white white red red black red red red red brown black;
+black red white red red red red red red red red brown black;
+black red red red red red red red red red red brown black;
+black red white red red red red red red red red brown black;
+white black red red red red red red red red brown black white;
+white white black red red red red red red brown black white white;
+white white white black red red red red brown black white white white;
+white white white white black red red brown black white white white white;
+white white white white white black brown black white white white white white;
+white white white white white white black white white white white white white;
+white white white white white white white white white white white white white;

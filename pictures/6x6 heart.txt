@@ -1,0 +1,6 @@
+white red white white red white;
+red pink red red pink red;
+red pink pink pink pink red;
+red pink pink pink pink red;
+white red pink pink red white;
+white white red red white white;

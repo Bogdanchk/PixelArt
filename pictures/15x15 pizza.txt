@@ -1,0 +1,15 @@
+white white white white white white white white black black black black white white white;
+white white white white white white black black orange orange black white white white white;
+white white white white white black orange orange orange black black black white white white;
+white white white white black orange orange black black yellow yellow yellow black white white;
+white white white black orange orange black yellow yellow yellow black black black white white;
+white white black orange orange black yellow yellow yellow yellow black red red black white;
+white black orange orange black yellow yellow yellow yellow black red red black white white;
+white black orange black yellow black black yellow yellow yellow black black yellow black white;
+black orange orange black black red red black yellow yellow yellow yellow yellow black white;
+black orange black yellow black red red black yellow yellow yellow yellow yellow black white;
+black orange black yellow yellow black black yellow yellow yellow yellow yellow yellow black white;
+black black black yellow yellow yellow yellow yellow yellow yellow black black yellow yellow black;
+white white white black black black black black yellow black red red black yellow black;
+white white white white white white white black black black black red black yellow black;
+white white white white white white white white white white white black black black black;
